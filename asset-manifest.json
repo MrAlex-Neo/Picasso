@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Picasso/static/css/main.3988da37.css",
+    "main.css": "/Picasso/static/css/main.8b2f14f1.css",
     "main.js": "/Picasso/static/js/main.33dea8e0.js",
     "index.html": "/Picasso/index.html",
-    "main.3988da37.css.map": "/Picasso/static/css/main.3988da37.css.map",
+    "main.8b2f14f1.css.map": "/Picasso/static/css/main.8b2f14f1.css.map",
     "main.33dea8e0.js.map": "/Picasso/static/js/main.33dea8e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.3988da37.css",
+    "static/css/main.8b2f14f1.css",
     "static/js/main.33dea8e0.js"
   ]
 }
