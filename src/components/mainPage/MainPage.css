@@ -1,0 +1,73 @@
+.scroll-container {
+  padding: 1vh 10vw !important;
+  overflow-y: scroll;
+  max-height: 80vh !important;
+  margin-top: 10vh !important;
+  scrollbar-width: thin !important;
+  scrollbar-color: transparent transparent !important;
+}
+
+.paper {
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px !important;
+  background-color: #e6dcdc !important;
+  transition: all 0.5s !important;
+}
+.paper h2{
+  font-size: 25px;
+  line-height: 150%;
+  font-weight: 800;
+}
+.paper p {
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 20ch;
+  overflow: hidden;
+}
+
+.paper:hover {
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px !important;
+  background-color: #f1e9e9 !important;
+}
+.scroll-container::-webkit-scrollbar {
+  width: 12px; /* ширина полосы прокрутки в браузерах Webkit (Chrome, Safari, Edge) */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: transparent; /* цвет ползуна прокрутки */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background-color: transparent; /* цвет трека прокрутки */
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.linkBox {
+  text-transform: none !important;
+  text-decoration: none !important;
+}
+.link {
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  color: black;
+  transition: all 1s !important;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  border-radius: 5px;
+  justify-self: flex-end;
+}
+.link:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: rgb(152, 162, 237);
+  text-shadow: 1px 1px 1px rgb(80, 100, 255);
+}
