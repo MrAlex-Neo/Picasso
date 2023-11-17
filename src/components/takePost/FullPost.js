@@ -2,8 +2,11 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { useGetPostsByIdQuery } from "../../redux/api";
+import { Link } from 'react-router-dom';
+
 
 import "./post.css";
+import "../mainPage/MainPage.css";
 
 const FullPost = () => {
   const { id } = useParams();
@@ -28,8 +31,15 @@ const FullPost = () => {
 
   return (
     <div className="container">
-      <h2>{data.title}</h2>
-      <p>{data.body}</p>
+      <div>
+        <h2>{data.title}</h2>
+        <p>{data.body}</p>
+      </div>
+      <div className='postLink'>
+        <Link className="linkBox" to={`/Picasso`}>
+          <p className="link post">назад</p>
+        </Link>
+      </div>
     </div>
   );
 };
