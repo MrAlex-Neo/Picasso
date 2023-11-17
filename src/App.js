@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='content'>
       <Routes>
-        <Route path='/' element={<MainPage/>} />
+        <Route path='/Picasso' element={<MainPage/>} />
         <Route path='/posts/:id' element={<FullPost/>} />
       </Routes>
     </div>
