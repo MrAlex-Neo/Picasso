@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Picasso/static/css/main.7b2ee8f1.css",
+    "main.js": "/Picasso/static/js/main.c8bd560d.js",
+    "index.html": "/Picasso/index.html",
+    "main.7b2ee8f1.css.map": "/Picasso/static/css/main.7b2ee8f1.css.map",
+    "main.c8bd560d.js.map": "/Picasso/static/js/main.c8bd560d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b2ee8f1.css",
+    "static/js/main.c8bd560d.js"
+  ]
+}
